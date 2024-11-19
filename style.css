@@ -1,0 +1,144 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #b5d6d5;
+    color: #095f72;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background: #095f72;
+    color: #fff;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .nav-links a:hover {
+    background: #021717;
+  }
+  
+  /* Sections */
+  section {
+    padding: 5rem 1rem;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  /* About Section */
+  .about {
+    background: #fff;
+    padding-top: 7rem;
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Projects Section */
+  .projects {
+    background: #f4f4f4;
+  }
+  
+  .projects h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .project-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .project {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 0.5rem;
+    width: 30%;
+    border-radius: 5px;
+    transition: transform 0.3s;
+  }
+  
+  .project:hover {
+    transform: scale(1.05);
+  }
+  
+  .project h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Contact Section */
+  .contact {
+    background: #333;
+    color: #fff;
+  }
+  
+  .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact a {
+    color: #1e90ff;
+    text-decoration: none;
+  }
+  
+  .contact a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
